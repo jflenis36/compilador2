@@ -1,0 +1,25 @@
+# Maven / build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ANTLR artefactos sueltos (por si alguien genera fuera de target)
+*.tokens
+*.interp
+gen/
+out/
+*.class
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.swp
