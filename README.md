@@ -38,20 +38,20 @@ Nota: si no pasas baseName, se deduce del nombre del archivo:
 Estructura del proyecto
 -----------------------
 .
-├─ examples/                     (casos de prueba .remi)
-│   └─ ejemplo.remi
-├─ src/
-│   └─ main/
-│       ├─ antlr4/
-│       │   └─ RemiLang.g4      (gramática ANTLR)
-│       └─ java/
-│           └─ com/remilang/
-│               ├─ Main.java    (orquestación: léxico → parser → semántica → código)
-│               ├─ Semantico.java
-│               └─ GeneradorCodigo.java
-├─ out/                          (archivos Java generados, p. ej. ejemploOut.java)
-├─ pom.xml
-└─ README.md (este archivo)
++-- examples/                     (casos de prueba .remi)
+|   \-- ejemplo.remi
++-- src/
+|   \-- main/
+|       +-- antlr4/
+|       |   \-- RemiLang.g4      (gramática ANTLR)
+|       \-- java/
+|           \-- com/remilang/
+|               +-- Main.java    (orquestación: léxico -> parser -> semántica -> código)
+|               +-- Semantico.java
+|               \-- GeneradorCodigo.java
++-- out/                          (archivos Java generados, p. ej. ejemploOut.java)
++-- pom.xml
+\-- README.md
 
 
 Qué debes implementar
